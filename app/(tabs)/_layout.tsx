@@ -37,6 +37,7 @@ export default function TabLayout() {
           tabBarIcon: ({ color }: { color: string }) => <IconSymbol size={28} name="cart.fill" color={color} />,
         }}
         />
+        
     </Tabs>
   );
 }
