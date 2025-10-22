@@ -34,8 +34,14 @@ export default function TabLayout() {
           title: 'Cart',
           tabBarIcon: ({ color }: { color: string }) => <IconSymbol size={28} name="cart.fill" color={color} />,
         }}
+        />  
+        <Tabs.Screen 
+      name="explore"
+        options={{
+          title: 'explore',
+          tabBarIcon: ({ color }: { color: string }) => <IconSymbol size={28} name="cart.fill" color={color} />,
+        }}
         />
-        
     </Tabs>
   );
 }
